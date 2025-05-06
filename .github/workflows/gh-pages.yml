@@ -26,10 +26,14 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List contents of dist folder
+        run: ls -la dist
+
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
