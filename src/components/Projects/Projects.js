@@ -70,7 +70,7 @@ function Projects() {
               imgPath={FaceDetection}
               isBlog={false}
               title="Student attendance"
-              description="..."
+              description="This project develops an automated attendance system leveraging facial recognition technology to streamline the process in educational settings. It utilizes Python with libraries like OpenCV, Dlib, and Tkinter to capture, process, and recognize student faces, storing attendance data efficiently. The system features a user-friendly GUI for managing student information, class schedules, and attendance records. Despite its effectiveness, limitations include sensitivity to lighting conditions and partial face obstructions."
               ghLink="https://github.com/tandat0303/StudentAttendance"
               demoLink=""
             />
