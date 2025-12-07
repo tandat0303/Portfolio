@@ -7,6 +7,7 @@ import FaceDetection from "../../Assets/Projects/FaceDetection.png";
 import PDUL from "../../Assets/Projects/posDecLED.png";
 import dem_system from "../../Assets/Projects/dem_system.png";
 import suicide from "../../Assets/Projects/suicide.png";
+import HMS from "../../Assets/Projects/hms.png";
 import rmsbooking from "../../Assets/Projects/rmsbooking.png";
 
 function Projects() {
@@ -56,11 +57,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={food_chatbot}
+              imgPath={HMS}
               isBlog={false}
-              title="Food Chatbot - Search Recipes App"
-              description="This project develops an AI-powered cooking chatbot that assists users in recipe suggestions based on available ingredients, personalized meal planning, and step-by-step cooking guidance."
-              ghLink="https://github.com/tandat0303/Food_Chabot"
+              title="Hotel Management System"
+              description="Hotel Management System: A desktop application developed using Java Swing, with user interface forms designed via NetBeans IDE and packaged with Maven. The primary objective is to streamline hotel business processes, including room reservations, check-in and check-out operations, customer and employee management, invoice handling, and comprehensive reporting."
+              ghLink="https://github.com/nguyenfan20/hotel_management"
               demoLink=""
             />
           </Col>
@@ -76,17 +77,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={PDUL}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Position Detection Using LED Light"
+              description="Using the meta-learning method, combined with artificial neural network (ANN) to predict the position by light sources (LEDs), most suitable in the condition of faulty lights or high noise environment."
+              ghLink="https://github.com/tandat0303/PositionDetection-Using-LEDLight"
+              demoLink=""              
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
