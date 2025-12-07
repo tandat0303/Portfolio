@@ -7,7 +7,7 @@ import FaceDetection from "../../Assets/Projects/FaceDetection.png";
 import PDUL from "../../Assets/Projects/posDecLED.png";
 import dem_system from "../../Assets/Projects/dem_system.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import HMS from "../../Assets/Projects/suicide.png";
+import HMS from "../../Assets/Projects/hms.png";
 import rmsbooking from "../../Assets/Projects/rmsbooking.png";
 
 function Projects() {
