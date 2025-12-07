@@ -7,7 +7,7 @@ import FaceDetection from "../../Assets/Projects/FaceDetection.png";
 import PDUL from "../../Assets/Projects/posDecLED.png";
 import dem_system from "../../Assets/Projects/dem_system.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import HMS from "../../Assets/Projects/hms.png";
+import HMS from "../../Assets/Projects/suicide.png";
 import rmsbooking from "../../Assets/Projects/rmsbooking.png";
 
 function Projects() {
@@ -46,22 +46,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={PDUL}
-              isBlog={false}
-              title="Position Detection Using LED Light"
-              description="Using the meta-learning method, combined with artificial neural network (ANN) to predict the position by light sources (LEDs), most suitable in the condition of faulty lights or high noise environment."
-              ghLink="https://github.com/tandat0303/PositionDetection-Using-LEDLight"
-              demoLink=""              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={HMS}
               isBlog={false}
               title="Hotel Management System"
               description="Hotel Management System: A desktop application developed using Java Swing, with user interface forms designed via NetBeans IDE and packaged with Maven. The primary objective is to streamline hotel business processes, including room reservations, check-in and check-out operations, customer and employee management, invoice handling, and comprehensive reporting."
               ghLink="https://github.com/nguyenfan20/hotel_management"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food_chatbot}
+              isBlog={false}
+              title="Food Chatbot - Search Recipes App"
+              description="This project develops an AI-powered cooking chatbot that assists users in recipe suggestions based on available ingredients, personalized meal planning, and step-by-step cooking guidance."
+              ghLink="https://github.com/tandat0303/Food_Chabot"
               demoLink=""
             />
           </Col>
