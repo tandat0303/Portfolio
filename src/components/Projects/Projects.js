@@ -2,13 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import food_chatbot from "../../Assets/Projects/food_chatbot.png";
-import FaceDetection from "../../Assets/Projects/FaceDetection.png";
-import PDUL from "../../Assets/Projects/posDecLED.png";
 import dem_system from "../../Assets/Projects/dem_system.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import notesApp from "../../Assets/Projects/notesapp.png";
 import HMS from "../../Assets/Projects/hms.png";
 import rmsbooking from "../../Assets/Projects/rmsbooking.png";
+import BMRS from "../../Assets/Projects/bmrs.png";
 
 function Projects() {
   return (
@@ -35,11 +33,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={notesApp}
+              isBlog={false}
+              title="Notes Taking App"
+              description="Notes App is a modern, minimal, and user-friendly web application for creating and managing personal notes. It focuses on simplicity, speed, and scalability using modern frontend tooling and a cloud-ready backend."
+              ghLink="https://github.com/tandat0303/Notes-App"
+              demoLink="https://notes-app-sgu-std.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={rmsbooking}
               isBlog={false}
               title="RMS-Booking"
               description="The Restaurant Management System Booking - e-commerce system was used to book a table in restaurant, which is designed according to Microservices architecture, which helps to separate functions, ensuring flexibility, scalability and easy maintenance."
               ghLink="https://github.com/GiaBaon/CNLTHD_nhom/tree/main/Example/demo"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BMRS}
+              isBlog={false}
+              title="Booking Meeting Room System"
+              description="The Meeting Room Booking System is a centralized platform designed to help organizations efficiently manage and schedule meeting spaces. It allows users to search for available rooms, view detailed room information (capacity, location, equipment, images), and make reservations in real time."
+              ghLink="https://github.com/tandat0303/Small-BMRS"
               demoLink=""
             />
           </Col>
@@ -52,39 +72,6 @@ function Projects() {
               description="Hotel Management System: A desktop application developed using Java Swing, with user interface forms designed via NetBeans IDE and packaged with Maven. The primary objective is to streamline hotel business processes, including room reservations, check-in and check-out operations, customer and employee management, invoice handling, and comprehensive reporting."
               ghLink="https://github.com/nguyenfan20/hotel_management"
               demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={food_chatbot}
-              isBlog={false}
-              title="Food Chatbot - Search Recipes App"
-              description="This project develops an AI-powered cooking chatbot that assists users in recipe suggestions based on available ingredients, personalized meal planning, and step-by-step cooking guidance."
-              ghLink="https://github.com/tandat0303/Food_Chabot"
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={FaceDetection}
-              isBlog={false}
-              title="Student attendance"
-              description="This project develops an automated attendance system leveraging facial recognition technology to streamline the process in educational settings. It utilizes Python with libraries like OpenCV, Dlib, and Tkinter to capture, process, and recognize student faces, storing attendance data efficiently. The system features a user-friendly GUI for managing student information, class schedules, and attendance records. Despite its effectiveness, limitations include sensitivity to lighting conditions and partial face obstructions."
-              ghLink="https://github.com/tandat0303/StudentAttendance"
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={PDUL}
-              isBlog={false}
-              title="Position Detection Using LED Light"
-              description="Using the meta-learning method, combined with artificial neural network (ANN) to predict the position by light sources (LEDs), most suitable in the condition of faulty lights or high noise environment."
-              ghLink="https://github.com/tandat0303/PositionDetection-Using-LEDLight"
-              demoLink=""              
             />
           </Col>
         </Row>
