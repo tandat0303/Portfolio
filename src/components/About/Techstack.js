@@ -7,18 +7,11 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
   DiJava,
   DiGithub,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang, TbBrandMysql, TbBrandTypescript } from "react-icons/tb";
+import { SiNextdotjs } from "react-icons/si";
+import { TbBrandMysql, TbBrandTypescript } from "react-icons/tb";
 
 function Techstack() {
   return (

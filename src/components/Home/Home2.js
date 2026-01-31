@@ -4,7 +4,6 @@ import myImg from "../../Assets/gamer.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineFacebook,
 } from "react-icons/ai";
@@ -33,9 +32,7 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  AI - Artificial Intelligence
-                </b>.
+                <b className="purple">AI - Artificial Intelligence</b>.
               </i>
               <br />
               <br />
