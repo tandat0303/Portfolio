@@ -7,7 +7,7 @@ import notesApp from "../../Assets/Projects/notesapp.png";
 import HMS from "../../Assets/Projects/hms.png";
 import rmsbooking from "../../Assets/Projects/rmsbooking.png";
 import BMRS from "../../Assets/Projects/bmrs.png";
-import calendarapp from "../../Assets/Projects/calendarapp.png;";
+import calendarapp from "../../Assets/Projects/calendarapp.png";
 
 function Projects() {
   return (
