@@ -7,6 +7,7 @@ import notesApp from "../../Assets/Projects/notesapp.png";
 import HMS from "../../Assets/Projects/hms.png";
 import rmsbooking from "../../Assets/Projects/rmsbooking.png";
 import BMRS from "../../Assets/Projects/bmrs.png";
+import calendarapp from "../../Assets/Projects/calendarapp.png;";
 
 function Projects() {
   return (
@@ -44,12 +45,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rmsbooking}
+              imgPath={calendarapp}
               isBlog={false}
-              title="RMS-Booking"
-              description="The Restaurant Management System Booking - e-commerce system was used to book a table in restaurant, which is designed according to Microservices architecture, which helps to separate functions, ensuring flexibility, scalability and easy maintenance."
-              ghLink="https://github.com/GiaBaon/CNLTHD_nhom/tree/main/Example/demo"
-              demoLink=""
+              title="Leave Calendar App"
+              description="A modern Schedule Management Web Application built with React, TypeScript, and Vite, designed to provide a fast and interactive interface for managing events, tasks, and daily planning. The project focuses on clean architecture, performance optimization, and scalable frontend structure for building advanced calendar-based systems."
+              ghLink="https://github.com/tandat0303/ScheduleApp"
+              demoLink="https://lyv-schedule-app.vercel.app/"
             />
           </Col>
 
@@ -60,6 +61,17 @@ function Projects() {
               title="Booking Meeting Room System"
               description="The Meeting Room Booking System is a centralized platform designed to help organizations efficiently manage and schedule meeting spaces. It allows users to search for available rooms, view detailed room information (capacity, location, equipment, images), and make reservations in real time."
               ghLink="https://github.com/tandat0303/Small-BMRS"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rmsbooking}
+              isBlog={false}
+              title="RMS-Booking"
+              description="The Restaurant Management System Booking - e-commerce system was used to book a table in restaurant, which is designed according to Microservices architecture, which helps to separate functions, ensuring flexibility, scalability and easy maintenance."
+              ghLink="https://github.com/GiaBaon/CNLTHD_nhom/tree/main/Example/demo"
               demoLink=""
             />
           </Col>
