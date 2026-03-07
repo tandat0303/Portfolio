@@ -2,16 +2,16 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
+  // DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
+  // DiMongodb,
+  // DiPython,
   DiJava,
   DiGithub,
 } from "react-icons/di";
 import { SiMicrosoftsqlserver, SiNextdotjs } from "react-icons/si";
-import { TbBrandMysql, TbBrandTypescript } from "react-icons/tb";
+import { TbBrandTypescript } from "react-icons/tb";
 
 function Techstack() {
   return (

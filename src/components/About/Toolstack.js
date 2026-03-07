@@ -5,9 +5,9 @@ import {
   SiPostman,
   SiVercel,
   SiWindows,
-  SiApachejmeter,
-  SiIntellijidea,
-  SiPycharm,
+  // SiApachejmeter,
+  // SiIntellijidea,
+  // SiPycharm,
 } from "react-icons/si";
 
 function Toolstack() {
