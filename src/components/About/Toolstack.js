@@ -7,7 +7,7 @@ import {
   SiWindows,
   SiApachejmeter,
   SiIntellijidea,
-  SiPycharm
+  SiPycharm,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,18 +22,18 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiApachejmeter />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPycharm />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

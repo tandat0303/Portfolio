@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Typescript and Python</b>.
+                <b className="purple"> ReactJS, Typescript and Java</b>.
               </i>
               <br />
               <br />
@@ -32,12 +32,12 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">AI - Artificial Intelligence</b>.
+                <b className="purple">ML - Machine Learning</b>.
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Springboot</b> and
+              with <b className="purple">Nest.js</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -46,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>.
+                <b className="purple"> Next.js</b>.
               </i>
             </p>
           </Col>
@@ -95,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/tan-dat-truong-71a760364/"
+                  href="www.linkedin.com/in/dattruongtan"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
