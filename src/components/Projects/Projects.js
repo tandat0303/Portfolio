@@ -1,13 +1,13 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import dem_system from "../../Assets/Projects/dem_system.png";
 import notesApp from "../../Assets/Projects/notesapp.png";
 import HMS from "../../Assets/Projects/hms.png";
-import rmsbooking from "../../Assets/Projects/rmsbooking.png";
+// import rmsbooking from "../../Assets/Projects/rmsbooking.png";
 import BMRS from "../../Assets/Projects/bmrs.png";
 import calendarapp from "../../Assets/Projects/calendarapp.png";
+import projectTracking from "../../Assets/Projects/projectTracking.jpg";
 
 function Projects() {
   return (
@@ -34,12 +34,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={notesApp}
+              imgPath={projectTracking}
               isBlog={false}
-              title="Notes Taking App"
-              description="Notes App is a modern, minimal, and user-friendly web application for creating and managing personal notes. It focuses on simplicity, speed, and scalability using modern frontend tooling and a cloud-ready backend."
-              ghLink="https://github.com/tandat0303/Notes-App"
-              demoLink="https://notes-app-sgu-std.vercel.app/"
+              title="IT Project Tracking"
+              description="An internal management system designed to track, monitor, and evaluate the progress and outcomes of IT
+              projects and individual tasks. The system serves as a core platform for assessing employee performance and
+              productivity within the IT department."
+              ghLink="https://github.com/tandat0303/IT-Project-Management"
+              demoLink=""
             />
           </Col>
 
@@ -65,7 +67,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={rmsbooking}
               isBlog={false}
@@ -74,7 +76,7 @@ function Projects() {
               ghLink="https://github.com/GiaBaon/CNLTHD_nhom/tree/main/Example/demo"
               demoLink=""
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -84,6 +86,17 @@ function Projects() {
               description="Hotel Management System: A desktop application developed using Java Swing, with user interface forms designed via NetBeans IDE and packaged with Maven. The primary objective is to streamline hotel business processes, including room reservations, check-in and check-out operations, customer and employee management, invoice handling, and comprehensive reporting."
               ghLink="https://github.com/nguyenfan20/hotel_management"
               demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notesApp}
+              isBlog={false}
+              title="Notes Taking App"
+              description="Notes App is a modern, minimal, and user-friendly web application for creating and managing personal notes. It focuses on simplicity, speed, and scalability using modern frontend tooling and a cloud-ready backend."
+              ghLink="https://github.com/tandat0303/Notes-App"
+              demoLink="https://notes-app-sgu-std.vercel.app/"
             />
           </Col>
         </Row>
