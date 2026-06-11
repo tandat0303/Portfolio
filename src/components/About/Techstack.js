@@ -10,7 +10,11 @@ import {
   DiJava,
   DiGithub,
 } from "react-icons/di";
-import { SiMicrosoftsqlserver, SiNextdotjs } from "react-icons/si";
+import {
+  SiMicrosoftsqlserver,
+  SiNestjs,
+  // SiNextdotjs
+} from "react-icons/si";
 import { TbBrandTypescript } from "react-icons/tb";
 
 function Techstack() {
@@ -31,15 +35,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
       </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGithub />
       </Col>
