@@ -10,10 +10,12 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Truong Tan Dat </span>
             from <span className="purple"> Ho Chi Minh City, Vietnam.</span>
-            <br />I am currently a software developer at LACTY Co., LtD
-            {/* <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra. */}
+            <br />I am currently a{" "}
+            <span className="purple">Information Technology Technician</span> at
+            THE SOUTHERN FERTILIZER JOINT STOCK COMPANY
+            <br />I graduated with a Bachelor of Engineering degree in
+            Information Technology from{" "}
+            <span className="purple">Sai Gon University</span> (SGU).
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

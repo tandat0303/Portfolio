@@ -4,6 +4,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiVercel,
+  SiRender,
   SiWindows,
   // SiApachejmeter,
   // SiIntellijidea,
@@ -27,6 +28,9 @@ function Toolstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRender />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />

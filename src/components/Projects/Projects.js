@@ -80,23 +80,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={HMS}
-              isBlog={false}
-              title="Hotel Management System"
-              description="Hotel Management System: A desktop application developed using Java Swing, with user interface forms designed via NetBeans IDE and packaged with Maven. The primary objective is to streamline hotel business processes, including room reservations, check-in and check-out operations, customer and employee management, invoice handling, and comprehensive reporting."
-              ghLink="https://github.com/nguyenfan20/hotel_management"
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={notesApp}
               isBlog={false}
               title="Notes Taking App"
               description="Notes App is a modern, minimal, and user-friendly web application for creating and managing personal notes. It focuses on simplicity, speed, and scalability using modern frontend tooling and a cloud-ready backend."
               ghLink="https://github.com/tandat0303/Notes-App"
               demoLink="https://notes-app-sgu-std.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HMS}
+              isBlog={false}
+              title="Hotel Management System"
+              description="Hotel Management System: A desktop application developed using Java Swing, with user interface forms designed via NetBeans IDE and packaged with Maven. The primary objective is to streamline hotel business processes, including room reservations, check-in and check-out operations, customer and employee management, invoice handling, and comprehensive reporting."
+              ghLink="https://github.com/nguyenfan20/hotel_management"
+              demoLink=""
             />
           </Col>
         </Row>
